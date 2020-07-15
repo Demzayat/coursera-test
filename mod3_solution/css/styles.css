@@ -1,0 +1,108 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff9c79;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #7e7e7e;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 20px;
+  height: auto !;
+  padding-bottom: 30px;
+}
+.navbar-brand{
+	position: relative;
+	float: left;
+	margin-top: 0;
+  	margin-bottom: 0px;
+  	line-height: .75;
+  	padding-left: 0px;
+}
+
+.navbar-brand a > h1 {
+	color: #e5e5e5;
+	padding-left: 0;
+}
+
+#nav-list {
+  margin-top: 0px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -13px;
+  position:relative;
+  float: right
+}
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+.container {
+  transition: padding 500;
+}
+
+.container-is-open {
+  padding-top:200px;
+}
+
+
+div h2{
+	color: black;
+}
+/* END HEADER */
+
+/* Main */
+.item{
+	height: 700px;
+	background:#7e7e7e;
+	padding: 20px;
+	color: black;
+}
+
+.main-content a{
+	bottom: 10px;
+	margin: 0px;
+}
+
+footer .container{
+	height: 30px;
+	background: #ff9c79;
+	padding: 40px
+}
+
+.link{
+	margin-top: -25px;
+}
+
+a{
+	color: black;
+}
+.item h3{
+	color: black;
+}
+.item p{
+	font-style: italic;
+}
